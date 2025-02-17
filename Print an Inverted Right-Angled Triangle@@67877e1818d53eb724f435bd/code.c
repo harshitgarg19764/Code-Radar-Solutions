@@ -8,7 +8,7 @@ int i = num;
 while(i!=0){
     printf('*');
 
-    i--
+    i--;
 }
 
 
