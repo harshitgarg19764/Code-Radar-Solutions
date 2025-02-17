@@ -10,7 +10,7 @@ int main(){
         // ans = ans*10 + binary;
         num=num/2; 
     }
-        if(binary==0){
+        if(binary==1){
             printf("Set");
         }
         else{
