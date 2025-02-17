@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     int num;
-    int binary=0;
+    int binary;
     int ans=0;
     scanf("%d",&num);
     while(num>0){
@@ -10,5 +10,10 @@ int main(){
         // ans = ans*10 + binary;
         num=num/2; 
     }
-        printf("%d",binary);
+        if(binary==0){
+            printf("Set")
+        }
+        else{
+            printf("Not Set")
+        }
 }
