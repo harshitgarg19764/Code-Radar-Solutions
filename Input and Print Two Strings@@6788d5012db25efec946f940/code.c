@@ -6,5 +6,5 @@ int main(){
 
 
     scanf("%s %s",str1,str2);
-    printf("You entered: %s",str1,str2);
+    printf("You entered: %s %s",str1,str2);
 }
