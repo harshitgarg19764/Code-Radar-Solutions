@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     int num;
-    int binary;
+    int binary=0;
     int ans=0;
     scanf("%d",&num);
     while(num>0){
