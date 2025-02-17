@@ -11,9 +11,9 @@ int main(){
         num=num/2; 
     }
         if(binary==0){
-            printf("Set")
+            printf("Set");
         }
         else{
-            printf("Not Set")
+            printf("Not Set");
         }
 }
