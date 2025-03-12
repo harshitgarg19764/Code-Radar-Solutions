@@ -18,7 +18,7 @@ int main(){
         }
     }
     printf("%d",countEven);
-    printf(" ")
+    printf(" ");
     printf("%d",countOdd);
     
     
