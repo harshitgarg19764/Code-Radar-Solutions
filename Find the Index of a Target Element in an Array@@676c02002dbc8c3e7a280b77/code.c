@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int main(){
+int fun(){
     int n;
     scanf("%d",&n);
     int num[n];
@@ -11,9 +11,13 @@ int main(){
     scanf("%d",&t);
     for(int i=0;i<n;i++){
         if(num[i]==t){
-            printf("%d",i);
+            return i;
         }
     }
+    return -1
 
 
+}
+int main(){
+    fun();
 }
