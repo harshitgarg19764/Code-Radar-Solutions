@@ -14,5 +14,8 @@ int main(){
         if(num[start]==num[end]){
              printf("YES");
     }
+    else{
+        printf("NO");
+    }
 }
 }
