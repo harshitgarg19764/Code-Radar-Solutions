@@ -13,9 +13,6 @@ int main(){
         if(num[i]==t){
             printf("%d",i);
         }
-        else{
-            printf("-1");
-        }
     }
 
 
