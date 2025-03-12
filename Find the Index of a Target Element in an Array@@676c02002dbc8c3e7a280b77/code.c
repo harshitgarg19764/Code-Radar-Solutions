@@ -19,5 +19,6 @@ int fun(){
 
 }
 int main(){
-    fun();
+    int a = fun();
+    printf("%d",a);
 }
