@@ -9,5 +9,10 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-
+    for(int i=k+1;i<n;i++){
+        printf(num[i]);
+    }
+    for(int i=0;i<k+1;i++){
+        printf(num[i]);
+    }
 }
