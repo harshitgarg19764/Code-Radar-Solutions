@@ -28,7 +28,6 @@ int main(){
         scanf("%d",&num);
         printf("%d\n",isPrime(num));
     }
-    return 0;
 
     // int numbers[t];
     // for (int i = 0; i < t; i++) {
